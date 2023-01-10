@@ -45,13 +45,15 @@
 #define GLFW_INCLUDE_NONE
 #include "inc/glfw3.h"
 
+#include "glad_gl.c"
+
 #ifndef __x86_64__
     #define NOSSE
 #endif
 
 #define SEIR_RAND
 
-#include "esAux2.h"
+#include "inc/esAux2.h"
 #include "inc/res.h"
 
 #include "assets/scene.h"

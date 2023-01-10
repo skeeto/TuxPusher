@@ -16,15 +16,17 @@ _Just move around your mouse and click to release a coin._
 - C = Orthographic/Perspective.
 - F = FPS to console.
 
-### Snapcraft
-https://snapcraft.io/tuxpusher
+### Build
+Linux:
 
-### Linux Binary
-https://github.com/mrbid/tuxpusher/raw/main/tux
+    $ cc main.c -lglfw -lm
 
-### Windows Binaries
-https://github.com/mrbid/tuxpusher/raw/main/tux.exe<br>
-https://github.com/mrbid/tuxpusher/raw/main/glfw3.dll
+Windows:
+
+    $ cc -mwindows main.c -lglfw3 -lgdi32
+
+### Attribution
+[Tux by Andy Cuccaro](https://sketchfab.com/3d-models/tux-157de95fa4014050a969a8361a83d366)
 
 ### License
 This software TuxPusher is released under the [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html) license. Being released under 'GPL-2.0-only' means that any subsequent versions of the GPL-2.0 license are NOT applicable to the source code or assets in this GitHub repository. This GPL-2.0-only licensing includes source code and all assets apart from the Tux 3D asset ([tux.h](assets/tux.h)) created by [Andy Cuccaro](https://sketchfab.com/andycuccaro) which is licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
